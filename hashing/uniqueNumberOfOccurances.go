@@ -19,3 +19,5 @@ func uniqueOccurrences(arr []int) bool {
 	}
 	return true
 }
+
+// https://leetcode.com/problems/unique-number-of-occurrences/

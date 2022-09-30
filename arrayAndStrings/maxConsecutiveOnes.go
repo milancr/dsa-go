@@ -13,3 +13,5 @@ func longestOnes(nums []int, k int) int {
 	return right - left + 1
 
 }
+
+// https://leetcode.com/problems/max-consecutive-ones-iii/

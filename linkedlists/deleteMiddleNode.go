@@ -21,3 +21,5 @@ func deleteMiddle(head *ListNode) *ListNode {
 	slow.Next = slow.Next.Next
 	return head
 }
+
+// https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/

@@ -28,3 +28,5 @@ func addToSet(arr []int) map[int]struct{} {
 	}
 	return m
 }
+
+// https://leetcode.com/problems/intersection-of-two-arrays/

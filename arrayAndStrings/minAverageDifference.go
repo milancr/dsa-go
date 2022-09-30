@@ -43,3 +43,5 @@ func abs(n int) int {
 	}
 	return n
 }
+
+// https://leetcode.com/problems/minimum-average-difference/

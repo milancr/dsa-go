@@ -1,6 +1,7 @@
 package linkedlists
 
 // find halfway point, store it, reverse items past it. compare first and second half
+// Nice solution that reverses the first half
 
 // ListNode ...
 type ListNode struct {
@@ -42,3 +43,5 @@ func isPalindrome(head *ListNode) bool {
 	}
 	return true
 }
+
+// https://leetcode.com/problems/palindrome-linked-list/

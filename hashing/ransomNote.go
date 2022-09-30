@@ -19,3 +19,5 @@ func canConstruct(ransomNote string, magazine string) bool {
 	}
 	return true
 }
+
+// https://leetcode.com/problems/ransom-note/

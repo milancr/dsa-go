@@ -16,3 +16,5 @@ func deleteDuplicates(head *ListNode) *ListNode {
 	}
 	return res
 }
+
+// https://leetcode.com/problems/remove-duplicates-from-sorted-list/

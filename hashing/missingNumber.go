@@ -9,3 +9,5 @@ func missingNumber(nums []int) int {
 	}
 	return mn
 }
+
+// https://leetcode.com/problems/missing-number/

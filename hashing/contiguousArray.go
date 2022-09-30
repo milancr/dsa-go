@@ -22,3 +22,5 @@ func max(n1, n2 int) int {
 	}
 	return n2
 }
+
+// https://leetcode.com/problems/missing-number/

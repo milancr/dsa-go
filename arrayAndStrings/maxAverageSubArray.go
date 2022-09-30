@@ -14,3 +14,5 @@ func findMaxAverage(nums []int, k int) float64 {
 	}
 	return float64(res) / float64(k)
 }
+
+// https://leetcode.com/problems/maximum-average-subarray-i/

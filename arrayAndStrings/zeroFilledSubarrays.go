@@ -24,3 +24,5 @@ func zeroFilledSubarray(nums []int) int64 {
 
 	return int64(sum)
 }
+
+// https://leetcode.com/problems/number-of-zero-filled-subarrays/
