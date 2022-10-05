@@ -1,0 +1,2 @@
+-- Review previous sections + problems and write out each approach and its time complexity
+-- Answer how current answer could be optimized
