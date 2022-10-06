@@ -2,6 +2,9 @@
 -- Answer how current answer could be optimized
 
 -- Need to review:
-nextGreaterNodeInLinkedList, contiguousArray, containerWithMostWater
+nextGreaterNodeInLinkedList, contiguousArray, containerWithMostWater, probably most tree problems
 
-Current area of weakness is recursion + overall treesAndGraphs 
+Current area of weakness is recursion + overall trees and graphs
+
+Going to make a note whether I needed help and on which problems with "********"
+at the top of the file
