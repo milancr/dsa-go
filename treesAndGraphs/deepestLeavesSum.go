@@ -51,3 +51,4 @@ func max(i, j int) int {
 }
 
 // https://leetcode.com/problems/deepest-leaves-sum/
+// works but not optimal, can be done with only one pass

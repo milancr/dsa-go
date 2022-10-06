@@ -5,6 +5,7 @@ func makeGood(s string) string {
 	for k, v := range s {
 		if k > 0 && len(stack) > 0 {
 			diff := stack[len(stack)-1] - v
+			// 'A' - 'a' = 32 -> difference for all upper and lower ascii values
 			if abs(int(diff)) == 32 {
 				stack = stack[:len(stack)-1]
 				continue

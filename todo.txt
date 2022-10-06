@@ -1,2 +1,7 @@
 -- Review previous sections + problems and write out each approach and its time complexity
 -- Answer how current answer could be optimized
+
+-- Need to review:
+nextGreaterNodeInLinkedList, contiguousArray, containerWithMostWater
+
+Current area of weakness is recursion + overall treesAndGraphs 

@@ -2,7 +2,7 @@ package hashing
 
 func findMaxLength(nums []int) int {
 	m := map[int]int{}
-	// This line is tricky af, necessary for calculating len of subarr
+	// This line is tricky but, necessary for calculating len of subarr
 	m[0] = -1
 	maxLen, sum := 0, 0
 	for idx, val := range nums {
@@ -23,4 +23,4 @@ func max(n1, n2 int) int {
 	return n2
 }
 
-// https://leetcode.com/problems/missing-number/
+// https://leetcode.com/problems/contiguous-array/
