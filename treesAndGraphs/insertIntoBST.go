@@ -1,5 +1,6 @@
 package treesandgraphs
 
+// ******************
 type TreeNode struct {
 	Left  *TreeNode
 	Right *TreeNode
@@ -18,3 +19,6 @@ func insertIntoBST(root *TreeNode, val int) *TreeNode {
 
 	return root
 }
+
+// https://www.youtube.com/watch?v=RIDBLO-S7OA&ab_channel=NickWhite
+// https://leetcode.com/problems/insert-into-a-binary-search-tree/

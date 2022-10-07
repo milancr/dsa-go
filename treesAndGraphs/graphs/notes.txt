@@ -1,0 +1,5 @@
+Graphs are definitely my weakest link, need to be a focal point
+
+DFS on graphs is usually O(n + e) where n is the number of nodes and e is the number of edges
+May need to use set or boolean array to store if its seen 
+
