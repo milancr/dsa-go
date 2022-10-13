@@ -1,4 +1,4 @@
-package graphs
+package treesandgraphs
 
 // ********************
 var visited [][]bool
