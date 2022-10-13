@@ -40,3 +40,29 @@ func validPath(n int, edges [][]int, start int, end int) bool {
 // explanation:
 
 // https://leetcode.com/problems/find-if-path-exists-in-graph/
+
+// Recursive implementation
+func validPaths(n int, edges [][]int, source int, destination int) bool {
+	graph := make([][]int, n)
+	for _, e := range edges {
+		graph[e[0]] = append(graph[e[0]], e[1])
+		graph[e[1]] = append(graph[e[1]], e[0])
+	}
+
+	seen := map[int]bool{}
+	dfs(graph, seen, source)
+
+	return seen[destination]
+
+}
+
+func dfs(graph [][]int, visited map[int]bool, i int) {
+	if visited[i] {
+		return
+	}
+
+	visited[i] = true
+	for j := 0; j < len(graph[i]); j++ {
+		dfs(graph, visited, graph[i][j])
+	}
+}

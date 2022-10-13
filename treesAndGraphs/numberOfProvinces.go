@@ -10,9 +10,17 @@ it indicated they have already been united into the same group, if parent nodes 
 thus for the pair of nodes, (x, y) while forming the union, we assign parent[x] = parent[y] which combines them
 into the same group
 
+using a disjoint set is O(n^3) -> better solution is dfs but implementing both for practice
 */
-
 func numberOfProvinces(matrix [][]int) {
+
+}
+
+func union(i, j int, friends []int) {
+
+}
+
+func find(i int, friends []int) int {
 
 }
 
