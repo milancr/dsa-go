@@ -14,10 +14,12 @@ func allPathsSourceTarget(graph [][]int) [][]int {
 	return paths
 }
 
+// key here is backtracking
 func dfs(graph [][]int, cur int, path []int, paths *[][]int) {
+	// end is the goal node
 	end := len(graph) - 1
 	path = append(path, cur)
-
+	// base case
 	if cur == end { // if valid path
 		// make shallow clone of path
 		*paths = append(*paths, append([]int{}, path...))
@@ -34,3 +36,4 @@ func dfs(graph [][]int, cur int, path []int, paths *[][]int) {
 
 // track visited, check if were at end, push copy, go through all neighbors of node,
 // when done were done searching path and we can remove it
+// https://leetcode.com/problems/all-paths-from-source-to-target/

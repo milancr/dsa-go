@@ -29,3 +29,5 @@ func getAncestors(n int, edges [][]int) [][]int {
 	fmt.Println(ans)
 	return edges
 }
+
+// https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/
